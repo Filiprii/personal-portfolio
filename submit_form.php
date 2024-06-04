@@ -16,8 +16,8 @@
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-            opacity: 0; /* Početna vrednost opacity-a postavljena na 0 */
-            animation: fadeInUp 0.5s ease forwards; /* Dodajemo CSS animaciju za pojavu */
+            opacity: 0; 
+            animation: fadeInUp 0.5s ease forwards; /
         }
         @keyframes fadeInUp {
             from {
@@ -51,11 +51,11 @@
         <p class="lead">We have received your message and will get back to you as soon as possible.</p>
     </div>
 
-    <!-- Dodajemo jQuery i Bootstrap JS -->
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Koristimo jQuery za promenu opacity-a .container elementa nakon što se stranica učita
+        
         $(document).ready(function() {
             $(".container").css("opacity", "1");
         });
